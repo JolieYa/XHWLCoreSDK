@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		19C600041FE7B3E50014B6DC /* XHWLCoreSDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C600031FE7B3E50014B6DC /* XHWLCoreSDKUITests.m */; };
+		19C600141FE7B5150014B6DC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 19C600131FE7B5150014B6DC /* README.md */; };
+		19C600181FE7B5470014B6DC /* XHWLCoreSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 19C600171FE7B5470014B6DC /* XHWLCoreSDK.podspec */; };
+		19C600251FE7B5CB0014B6DC /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C6001C1FE7B5CB0014B6DC /* NSDate+Extension.m */; };
+		19C600261FE7B5CB0014B6DC /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C6001E1FE7B5CB0014B6DC /* NSString+Extension.m */; };
+		19C600271FE7B5CB0014B6DC /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C6001F1FE7B5CB0014B6DC /* CommonCrypto.framework */; };
+		19C600281FE7B5CB0014B6DC /* XHWLRemoteOpenDoorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C600211FE7B5CB0014B6DC /* XHWLRemoteOpenDoorVC.m */; };
+		19C600291FE7B5CB0014B6DC /* ZJToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C600241FE7B5CB0014B6DC /* ZJToast.m */; };
+		19C6002A1FE7B5E00014B6DC /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C6001F1FE7B5CB0014B6DC /* CommonCrypto.framework */; };
+		19C6002B1FE7B5E00014B6DC /* CommonCrypto.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 19C6001F1FE7B5CB0014B6DC /* CommonCrypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		19C6002E1FE7B67C0014B6DC /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 19C6002D1FE7B67C0014B6DC /* images.bundle */; };
 		19C6FFE11FE7B3E40014B6DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C6FFE01FE7B3E40014B6DC /* AppDelegate.m */; };
 		19C6FFE41FE7B3E40014B6DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C6FFE31FE7B3E40014B6DC /* ViewController.m */; };
 		19C6FFE71FE7B3E40014B6DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C6FFE51FE7B3E40014B6DC /* Main.storyboard */; };
@@ -34,9 +44,35 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		19C6002C1FE7B5E00014B6DC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				19C6002B1FE7B5E00014B6DC /* CommonCrypto.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		19C600031FE7B3E50014B6DC /* XHWLCoreSDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHWLCoreSDKUITests.m; sourceTree = "<group>"; };
 		19C600051FE7B3E50014B6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19C600131FE7B5150014B6DC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		19C600171FE7B5470014B6DC /* XHWLCoreSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XHWLCoreSDK.podspec; sourceTree = "<group>"; };
+		19C6001B1FE7B5CB0014B6DC /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		19C6001C1FE7B5CB0014B6DC /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		19C6001D1FE7B5CB0014B6DC /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		19C6001E1FE7B5CB0014B6DC /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		19C6001F1FE7B5CB0014B6DC /* CommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CommonCrypto.framework; sourceTree = "<group>"; };
+		19C600201FE7B5CB0014B6DC /* XHWLRemoteOpenDoorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHWLRemoteOpenDoorVC.h; sourceTree = "<group>"; };
+		19C600211FE7B5CB0014B6DC /* XHWLRemoteOpenDoorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHWLRemoteOpenDoorVC.m; sourceTree = "<group>"; };
+		19C600231FE7B5CB0014B6DC /* ZJToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJToast.h; sourceTree = "<group>"; };
+		19C600241FE7B5CB0014B6DC /* ZJToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJToast.m; sourceTree = "<group>"; };
+		19C6002D1FE7B67C0014B6DC /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
 		19C6FFDC1FE7B3E40014B6DC /* XHWLCoreSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHWLCoreSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C6FFDF1FE7B3E40014B6DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		19C6FFE01FE7B3E40014B6DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19C6002A1FE7B5E00014B6DC /* CommonCrypto.framework in Frameworks */,
+				19C600271FE7B5CB0014B6DC /* CommonCrypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,9 +125,44 @@
 			path = XHWLCoreSDKUITests;
 			sourceTree = "<group>";
 		};
+		19C600191FE7B5CB0014B6DC /* RemoteOpenDoor */ = {
+			isa = PBXGroup;
+			children = (
+				19C6002D1FE7B67C0014B6DC /* images.bundle */,
+				19C6001A1FE7B5CB0014B6DC /* Category */,
+				19C6001F1FE7B5CB0014B6DC /* CommonCrypto.framework */,
+				19C600201FE7B5CB0014B6DC /* XHWLRemoteOpenDoorVC.h */,
+				19C600211FE7B5CB0014B6DC /* XHWLRemoteOpenDoorVC.m */,
+				19C600221FE7B5CB0014B6DC /* ZJToast */,
+			);
+			path = RemoteOpenDoor;
+			sourceTree = SOURCE_ROOT;
+		};
+		19C6001A1FE7B5CB0014B6DC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				19C6001B1FE7B5CB0014B6DC /* NSDate+Extension.h */,
+				19C6001C1FE7B5CB0014B6DC /* NSDate+Extension.m */,
+				19C6001D1FE7B5CB0014B6DC /* NSString+Extension.h */,
+				19C6001E1FE7B5CB0014B6DC /* NSString+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		19C600221FE7B5CB0014B6DC /* ZJToast */ = {
+			isa = PBXGroup;
+			children = (
+				19C600231FE7B5CB0014B6DC /* ZJToast.h */,
+				19C600241FE7B5CB0014B6DC /* ZJToast.m */,
+			);
+			path = ZJToast;
+			sourceTree = "<group>";
+		};
 		19C6FFD31FE7B3E40014B6DC = {
 			isa = PBXGroup;
 			children = (
+				19C600171FE7B5470014B6DC /* XHWLCoreSDK.podspec */,
+				19C600131FE7B5150014B6DC /* README.md */,
 				19C6FFDE1FE7B3E40014B6DC /* XHWLCoreSDK */,
 				19C6FFF71FE7B3E40014B6DC /* XHWLCoreSDKTests */,
 				19C600021FE7B3E50014B6DC /* XHWLCoreSDKUITests */,
@@ -110,6 +183,7 @@
 		19C6FFDE1FE7B3E40014B6DC /* XHWLCoreSDK */ = {
 			isa = PBXGroup;
 			children = (
+				19C600191FE7B5CB0014B6DC /* RemoteOpenDoor */,
 				19C6FFDF1FE7B3E40014B6DC /* AppDelegate.h */,
 				19C6FFE01FE7B3E40014B6DC /* AppDelegate.m */,
 				19C6FFE21FE7B3E40014B6DC /* ViewController.h */,
@@ -142,6 +216,7 @@
 				19C6FFD81FE7B3E40014B6DC /* Sources */,
 				19C6FFD91FE7B3E40014B6DC /* Frameworks */,
 				19C6FFDA1FE7B3E40014B6DC /* Resources */,
+				19C6002C1FE7B5E00014B6DC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -239,7 +314,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				19C6FFEC1FE7B3E40014B6DC /* LaunchScreen.storyboard in Resources */,
+				19C6002E1FE7B67C0014B6DC /* images.bundle in Resources */,
+				19C600181FE7B5470014B6DC /* XHWLCoreSDK.podspec in Resources */,
 				19C6FFE91FE7B3E40014B6DC /* Assets.xcassets in Resources */,
+				19C600141FE7B5150014B6DC /* README.md in Resources */,
 				19C6FFE71FE7B3E40014B6DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,9 +343,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19C600261FE7B5CB0014B6DC /* NSString+Extension.m in Sources */,
+				19C600281FE7B5CB0014B6DC /* XHWLRemoteOpenDoorVC.m in Sources */,
+				19C600251FE7B5CB0014B6DC /* NSDate+Extension.m in Sources */,
 				19C6FFE41FE7B3E40014B6DC /* ViewController.m in Sources */,
 				19C6FFEF1FE7B3E40014B6DC /* main.m in Sources */,
 				19C6FFE11FE7B3E40014B6DC /* AppDelegate.m in Sources */,
+				19C600291FE7B5CB0014B6DC /* ZJToast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +514,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L4285ALH3W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RemoteOpenDoor",
+				);
 				INFOPLIST_FILE = XHWLCoreSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xhwl.XHWLCoreSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,7 +533,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L4285ALH3W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RemoteOpenDoor",
+				);
 				INFOPLIST_FILE = XHWLCoreSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xhwl.XHWLCoreSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";

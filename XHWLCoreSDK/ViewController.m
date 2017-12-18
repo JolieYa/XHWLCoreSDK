@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "XHWLRemoteOpenDoorVC.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,18 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    NSLog(@"开始");
+    [self remoteOpenDoorWithSuperVC:self withtelephone:@"18320480001" withProjectCode:@"123" withUserName:@"测试1"];
+}
+- (void) remoteOpenDoorWithSuperVC:(UIViewController *)superVC withtelephone:(NSString *)phone withProjectCode:(NSString *)code withUserName:(NSString *)username {
+    
+    XHWLRemoteOpenDoorVC *opendoorVC = [[XHWLRemoteOpenDoorVC alloc] init];
+    [opendoorVC remoteOpenDoor:phone projectCode:code userName:username];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:opendoorVC];
+    [superVC presentViewController:nav animated:YES completion:nil];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
